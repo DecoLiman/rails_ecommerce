@@ -41,10 +41,11 @@ gem 'fog', require: 'fog/aws'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
   gem 'quiet_assets'
   gem 'dotenv-rails'
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'awesome_print'
 end
 
 group :development do
