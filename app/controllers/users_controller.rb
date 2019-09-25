@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 
-before_filter :check_session
+  before_filter :check_session
 
   def create
     user = User.new(user_params)
