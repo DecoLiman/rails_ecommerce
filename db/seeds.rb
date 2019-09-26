@@ -128,15 +128,15 @@ User.create!({
   email: 'admin@allsold.com',
   password_digest: '$2a$12$I6bBaLwbpEDkdmF7EkQkOe8W/veth/BeXXBH0vt2B/DvW/auSAkee',
   firstname: 'Admin',
-  lastname: 'Admin',
+  lastname: 'User',
   role: 'admin'
 })
 
 User.create!({
-  email: 'coderubyonrails@gmail.com',
+  email: 'someone.shahi@gmail.com',
   password_digest: '$2a$12$I6bBaLwbpEDkdmF7EkQkOe8W/veth/BeXXBH0vt2B/DvW/auSAkee',
-  firstname: 'Admin',
-  lastname: 'Admin',
+  firstname: 'Someone',
+  lastname: 'Shahi',
   role: 'normal'
 })
 
