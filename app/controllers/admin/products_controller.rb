@@ -1,5 +1,7 @@
 class Admin::ProductsController < Admin::BaseController
 
+  before_action :check_admin_user
+
   def index
     @products = Product.order(id: :desc).all
   end

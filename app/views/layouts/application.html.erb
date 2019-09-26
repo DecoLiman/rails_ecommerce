@@ -16,5 +16,18 @@
   </main>
 
   <%= yield :end_of_body %>
+  <script type="text/javascript">
+    $(function(){
+      $('#flash').css('position', 'fixed');
+      $('#flash').css('top', '10');
+      $('#flash').css('left', '30%');
+      $('#flash').css('z-index', '1');
+      $('#flash').css('width', '50%');
+      $('#flash').css('border-color', 'black');
+      $('#flash').delay(500).fadeIn('normal', function(){
+        $(this).delay(500).fadeOut(8000);
+      });
+    });
+	</script>
 </body>
 </html>

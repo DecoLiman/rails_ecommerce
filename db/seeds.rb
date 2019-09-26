@@ -133,6 +133,14 @@ User.create!({
 })
 
 User.create!({
+  email: 'coderubyonrails@gmail.com',
+  password_digest: '$2a$12$I6bBaLwbpEDkdmF7EkQkOe8W/veth/BeXXBH0vt2B/DvW/auSAkee',
+  firstname: 'Admin',
+  lastname: 'Admin',
+  role: 'normal'
+})
+
+User.create!({
   email: 'you@test.com',
   password_digest: '$2a$10$yNB98OCdmMOM3fLuQKMPZ.LIOLiHVJJACwwC/Bb9qe5njgEnavlGO',
   firstname: 'David',
