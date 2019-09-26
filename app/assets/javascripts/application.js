@@ -15,3 +15,15 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
+
+$(function(){
+  $('#flash').css('position', 'fixed');
+  $('#flash').css('top', '10');
+  $('#flash').css('left', '30%');
+  $('#flash').css('z-index', '1');
+  $('#flash').css('width', '45%');
+  $('#flash').css('border-color', 'black');
+  $('#flash').delay(500).fadeIn('normal', function(){
+    $(this).delay(500).fadeOut(8000);
+  });
+});
