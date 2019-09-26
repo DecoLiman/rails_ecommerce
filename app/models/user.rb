@@ -11,4 +11,11 @@ class User < ActiveRecord::Base
     UserMailer.welcome_email(self).deliver
   end
 
+  def admin?
+    role == 'admin'
+  end
+
+  def normal?
+    role == 'normal'
+  end
 end

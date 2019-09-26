@@ -1,4 +1,4 @@
-# Jungle Store
+# Allsold Store
 
 A mini e-commerce application built with Rails 4.2
 
